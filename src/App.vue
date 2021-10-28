@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <GeoloniaMap />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import GeoloniaMap from './components/GeoloniaMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    GeoloniaMap,
   }
 }
 </script>
